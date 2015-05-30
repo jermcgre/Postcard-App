@@ -106,6 +106,15 @@
                                     <rect key="frame" x="25" y="72" width="343" height="75"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1RM-ic-8in">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="155" width="180" height="30"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.80736243210000003" green="0.3343316187" blue="0.046167254159999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -116,6 +125,7 @@
                                 <exclude reference="gcG-Dz-vtm"/>
                                 <exclude reference="Vv2-FC-bCk"/>
                                 <exclude reference="Mxb-j2-FSs"/>
+                                <exclude reference="1RM-ic-8in"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -125,6 +135,7 @@
                                 <include reference="gcG-Dz-vtm"/>
                                 <include reference="Vv2-FC-bCk"/>
                                 <include reference="Mxb-j2-FSs"/>
+                                <include reference="1RM-ic-8in"/>
                             </mask>
                         </variation>
                     </view>
@@ -133,6 +144,7 @@
                         <outlet property="EnterNameTextField" destination="3Ag-nL-CJz" id="wrm-H7-VKp"/>
                         <outlet property="MessageLabel" destination="Mxb-j2-FSs" id="g7U-1J-FJB"/>
                         <outlet property="mailButton" destination="Vv2-FC-bCk" id="3W0-hs-iPT"/>
+                        <outlet property="nameLabel" destination="1RM-ic-8in" id="Ida-hF-BaE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
